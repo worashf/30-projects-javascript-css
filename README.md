@@ -2,7 +2,7 @@
 
 > 50 CSS3 and JavaScript practice projects. Built for playing with CSS3, and JavaScript.
 
-## [Online Demo]()
+## [Online Demo](https://worashf.github.io/50-projects-javascript-css/index.html)
 
 ## Built With
 
