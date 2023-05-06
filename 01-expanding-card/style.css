@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80vw;
+}
+
+.nav h1 {
+  font-size: 1.3rem;
+  color: black;
+  text-align: left;
+}
+.nav a {
+  font-size: 1.2rem;
+}
+.nav a:hover {
+  color: rgb(15, 74, 202);
+}
+.container {
+  display: flex;
+  width: 90vw;
+}
+#panel-1 {
+  background-image: url("./assets/Dashboard.avif");
+}
+
+#panel-2 {
+  background-image: url("./assets/water.avif");
+}
+#panel-3 {
+  background-image: url("./assets/flower.jpg");
+}
+#panel-4 {
+  background-image: url("./assets/beach.avif");
+}
+#panel-5 {
+  background-image: url("./assets/code-setup.avif");
+}
+.panel {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80vh;
+  border-radius: 5px;
+  cursor: pointer;
+  flex: 0.5;
+  color: #fff;
+  margin: 10px;
+  position: relative;
+  transition: flex 0.7s ease-in;
+}
+.panel h3 {
+  font-size: 1.3rem;
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  margin: 0;
+  opacity: 0;
+}
+.panel.active {
+  flex: 5;
+}
+
+.panel.active h3 {
+  opacity: 1;
+  transition: opacity 0.5s ease-in 0.7s;
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    width: 100vw;
+  }
+  .panel:nth-of-type(4),
+  .panel:nth-of-type(5) {
+    display: none;
+  }
+}
