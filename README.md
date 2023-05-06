@@ -18,7 +18,7 @@
 
 - Download or clone the repository
 - Open the folder in your IDE
-- Open the main.html in your browser and check it
+- Open the index.html in your browser and check it
 - Add your addition
 - Push to your github or deploy to cloud
 
