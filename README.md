@@ -15,12 +15,13 @@
 - Code editor like vs code
 
 ### Setup
-
+ ```sh 
 - Download or clone the repository
 - Open the folder in your IDE
 - Open the index.html in your browser and check it
 - Add your addition
 - Push to your github or deploy to cloud
+```
 
 ## Authors
 
